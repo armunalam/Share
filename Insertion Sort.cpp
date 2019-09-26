@@ -35,7 +35,3 @@ int main()
 	}
 	cout << A[size - 1];
 }
-
-
-
-
