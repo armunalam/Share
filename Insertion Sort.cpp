@@ -24,9 +24,9 @@ int main()
 	int size = 20;
 	int A[size];
 	for (int i = 0; i < size; i++)
-		{
-			A[i] = rand() % 100;
-		}
+	{
+		A[i] = rand() % 100;
+	}
 	insertionSort(A, size);
 
 	for (int i = 0; i < size - 1; i++)
